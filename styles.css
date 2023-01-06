@@ -1,1 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: linear-gradient(rgb(179, 107, 212), rgb(228, 138, 115));
+/*background-image: url(https://images8.alphacoders.com/572/572184.jpg);*/
+background-image: url(bk2.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: -5px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+.container{  
+    min-height: 65vh;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin: 23px auto;
+    width:60%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 7px grey;
+ background-image: linear-gradient(rgb(107, 132, 212), rgb(115, 228, 134));
+}
+.container1{  
+    min-height: 65vh;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin: 23px auto;
+    width:60%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 7px grey;
+ background-image: linear-gradient(rgb(212, 107, 147), rgb(203, 246, 210));
+}
+nav{
+    font-family: 'Roboto Slab', serif;    
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    height: 65px;
+    background-color:  rgb(13, 50, 87);
+    color:white;  
+}
+nav ul li{
+    padding: 20px;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.brand img{
+    width: 52px;
+    padding: 2px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:600px;
+    font-size: 30px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 10px;
+    cursor: pointer;    
+}
+.icons i{
+    padding: 5px;
+}
+.durations{
+    float: right;
+  }
+.songItem{ 
+   display: flex;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(13, 50, 87);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px;
+    padding-right:10px ;
+}
+.songItemPlay{
+    margin-top: 10px;
+}
+.songItem img{
+    height: 50px;
+    width:50px;
+    border-radius: 0%;   
+}
+.songListContainer{
+    margin-top: 20px;
+}
+marquee{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.bottom{
+    background-color: rgb(13, 50, 87);
+    position:sticky;
+    height: 100px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column; 
+}
+.songInfo{
+    justify-content: flex-start;
+    position:absolute;
+    left: 0;
+}
+.songInfo img{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 20px;
+    justify-items: center;  
+}
+.time {
+    display: flex;
+    padding: 2px;  
+  }
+  #dur{
+      font-size: 33px;
+  }
+  #next,#prev{
+      color: rgb(183, 202, 226);
+  }
+  #footerName{
+      font-size: 18px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #mySearch:hover{
+      background-color: rgb(195, 240, 243);
+      box-shadow: 2px 4px 6px rgb(212, 172, 172);
+  }
+ button{
+    padding: 8px 27px;
+    margin-bottom: 13px;
+   
+    /* margin-top: -2px; */
+}
+.songItemPlay{
+    margin-top:20px ;
+}
+#playlistName{
+    text-align: center;
+    color: chartreuse;  
+}
+.column{
+    float: left;
+    display: grid;
+    width: 25%;
+    padding: 3 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 5 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(238, 213, 213, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #88e9b9;
+    margin-top: 10px;
+    
+  }
+  #plylistImg{
+      height: 65px;
+      width: 65;
+      object-fit: cover;
+      align-items: center;
+      margin-top: 5px;
+  }
+  #aname{
+      color: crimson;
+      font-family: cursive;
+      font-weight: bold;
+  }
+  #pname{
+    color: rgb(184, 74, 228);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
 
