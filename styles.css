@@ -7,14 +7,9 @@
     
 }
 body{
-    background-image: linear-gradient(rgb(179, 107, 212), rgb(228, 138, 115));
-/*background-image: url(https://images8.alphacoders.com/572/572184.jpg);*/
-background-image: url(bk2.jpg);
-    object-fit: cover;
-    background-repeat: no-repeat;
-   
-    background-size: cover;
+    background-color: #F1C6E7;
 }
+
 input[type=text] {
     float: right;
     padding: 6px;
@@ -32,7 +27,7 @@ input[type=text] {
     padding: 25px;
     border-radius: 10px;
     box-shadow: 4px 5px 7px grey;
- background-image: linear-gradient(rgb(107, 132, 212), rgb(115, 228, 134));
+    background-color: #28DF99;
 }
 .container1{  
     min-height: 65vh;
@@ -43,7 +38,7 @@ input[type=text] {
     padding: 25px;
     border-radius: 10px;
     box-shadow: 4px 5px 7px grey;
- background-image: linear-gradient(rgb(212, 107, 147), rgb(203, 246, 210));
+    background-color: #28DF99;
 }
 nav{
     font-family: 'Roboto Slab', serif;    
@@ -52,7 +47,7 @@ nav ul{
     display: flex;
     list-style-type:none;
     height: 65px;
-    background-color:  rgb(13, 50, 87);
+    background-color: rgb(13, 50, 87);
     color:white;  
 }
 nav ul li{
@@ -160,9 +155,8 @@ marquee{
  button{
     padding: 8px 27px;
     margin-bottom: 13px;
-   
-    /* margin-top: -2px; */
 }
+
 .songItemPlay{
     margin-top:20px ;
 }
@@ -201,7 +195,7 @@ marquee{
     box-shadow: 0 4px 8px 0 rgba(238, 213, 213, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #88e9b9;
+    background-color: #FF7777;
     margin-top: 10px;
     
   }
@@ -218,10 +212,30 @@ marquee{
       font-weight: bold;
   }
   #pname{
-    color: rgb(184, 74, 228);
+    color: #10316B;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
